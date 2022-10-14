@@ -2,11 +2,11 @@
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <html>
 <head>
-<title>Customer Form - Struts2 Demo | ViralPatel.net</title>
+<title>Formulário de Cliente Personalizado</title>
 </head>
 
 <body>
-	<h2>Customer Form</h2>
+	<h2>Formulário de Cliente Personalizado</h2>
 
 	<s:form action="customer.action" method="post" validate="true">
 		<s:textfield name="name" key="name" size="20" />

@@ -2,10 +2,19 @@
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <html>
 <head>
-<title>Customer Page - Struts2 Demo | ViralPatel.net</title>
+<title>Cliente Personalizado</title>
 </head>
 
 <body>
-	<h2>Customer Added Successfully.</h2>
+	<h2>Novo cliente adicionado com sucesso:</h2>
+	<h3>
+		Nome: <s:property value="name" />
+		<br>
+		Idade: <s:property value="age" />
+		<br>
+		E-mail: <s:property value="email" />
+		<br>
+		Telefone: <s:property value="telephone" />
+	</h3>
 </body>
 </html>

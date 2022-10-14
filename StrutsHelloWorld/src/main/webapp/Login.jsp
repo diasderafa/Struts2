@@ -2,11 +2,11 @@
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <html>
 <head>
-<title>Struts 2 - Login Application | ViralPatel.net</title>
+<title>Login de Aplicação</title>
 </head>
 
 <body>
-	<h2>Struts 2 - Login Application</h2>
+	<h2>Login de Aplicação</h2>
 	<s:actionerror />
 	<s:form action="login.action" method="post">
 		<s:textfield name="nome" key="label.nome" size="20" />
